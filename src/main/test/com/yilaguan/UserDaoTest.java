@@ -1,5 +1,7 @@
 package com.yilaguan;
 
+import com.github.pagehelper.PageHelper;
+import com.github.pagehelper.PageInfo;
 import com.yilaguan.dao.UserDao;
 import com.yilaguan.model.UserModel;
 import org.apache.ibatis.session.RowBounds;
@@ -20,7 +22,9 @@ public class UserDaoTest {
 
     @Test
     public void testFindAll(){
-        List<UserModel> userModelList=userDao.findAll(new RowBounds(1,2));
+        PageHelper.startPage(2,2);
+        List<UserModel> userModelList=userDao.findAll();
+        PageInfo pageInfo=new PageInfo(userModelList);
         System.out.println(userModelList.size());
     }
 }

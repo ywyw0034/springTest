@@ -9,25 +9,13 @@
     <list default="true" id="d122626d-a822-47d6-ab8e-9c72a0c115c0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yilaguan/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yilaguan/controller/UserController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/yilaguan/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yilaguan/dao/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yilaguan/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yilaguan/service/UserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/yilaguan/service/impl/UserImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yilaguan/service/impl/UserImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/test/com/yilaguan/UserDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/test/com/yilaguan/UserDaoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SSM总结.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SSM总结.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yilaguan/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yilaguan/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/applicationContext.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/yilaguan/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yilaguan/dao/UserDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yilaguan/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yilaguan/service/UserService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/yilaguan/service/impl/UserImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yilaguan/service/impl/UserImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/springTest.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/springTest.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/springTest/WEB-INF/classes/SSM总结.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/springTest/WEB-INF/classes/SSM总结.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/springTest/WEB-INF/classes/com/yilaguan/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/springTest/WEB-INF/classes/com/yilaguan/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/springTest/WEB-INF/classes/com/yilaguan/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/springTest/WEB-INF/classes/com/yilaguan/dao/UserDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/springTest/WEB-INF/classes/com/yilaguan/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/springTest/WEB-INF/classes/com/yilaguan/service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/springTest/WEB-INF/classes/com/yilaguan/service/impl/UserImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/springTest/WEB-INF/classes/com/yilaguan/service/impl/UserImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/springTest/WEB-INF/classes/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/springTest/WEB-INF/classes/mapper/UserMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/yilaguan/UserDaoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/yilaguan/UserDaoTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -248,7 +236,7 @@
       <workItem from="1603174538111" duration="267000" />
       <workItem from="1603174825331" duration="698000" />
       <workItem from="1603175549831" duration="7197000" />
-      <workItem from="1603183577065" duration="7075000" />
+      <workItem from="1603183577065" duration="9772000" />
     </task>
     <servers />
   </component>
@@ -283,8 +271,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/test/com/yilaguan/UserDaoTest.java</url>
-          <line>22</line>
-          <option name="timeStamp" value="7" />
+          <line>27</line>
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

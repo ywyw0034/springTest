@@ -8,7 +8,7 @@ import java.util.List;
 
 @Repository
 public interface UserDao {
-    List<UserModel> findAll(RowBounds rowBounds);
+    List<UserModel> findAll();
 
     UserModel findUserById(int id);
 

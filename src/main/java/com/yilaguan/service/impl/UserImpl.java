@@ -16,7 +16,7 @@ public class UserImpl implements UserService {
     private UserDao userDao;
     @Override
     public List<UserModel> findAll() {
-        return userDao.findAll(new RowBounds(0,3));
+        return userDao.findAll();
     }
 
     @Override
