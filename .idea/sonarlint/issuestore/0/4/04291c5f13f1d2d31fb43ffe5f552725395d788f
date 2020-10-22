@@ -1,3 +1,12 @@
 
 ^
-java:S3457"AFormat specifiers should be used instead of string concatenation.(şÛÒ‰8¿š°¥Ô.
+java:S3457"AFormat specifiers should be used instead of string concatenation.(şÛÒ‰8¿š°¥Ô.
+g
+java:S1128"ERemove this unused import 'com.alibaba.druid.support.json.JSONUtils'.(Ö¢®»ıÿÿÿÿ8ëØ©Ô.
+U	java:S106&"9Replace this use of System.out or System.err by a logger.(ˆŠ·Û8Æéß§Ô.
+
+java:S14882"]Immediately return this expression instead of assigning it to the temporary variable "count".(ë©Êÿúÿÿÿÿ8Å½¨©Ô.
+W
+java:S18540"5Remove this useless assignment to local variable "s".(ÓŸÆµûÿÿÿÿ8Å½¨©Ô.
+H
+java:S14810"&Remove this unused "s" local variable.(ÓŸÆµûÿÿÿÿ8Å½¨©Ô.

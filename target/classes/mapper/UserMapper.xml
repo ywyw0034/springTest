@@ -15,4 +15,13 @@
     </select>
 
 
+    <select id="findUserById" parameterType="Integer" resultType="com.yilaguan.model.UserModel">
+        select * from ay_user where id =#{id}
+    </select>
+
+    <insert id="insertUser" useGeneratedKeys="true"
+            keyProperty="id" parameterType="com.yilaguan.model.UserModel">
+        insert into ay_user (name,password) value (#{name},#{password})
+    </insert>
+
 </mapper>

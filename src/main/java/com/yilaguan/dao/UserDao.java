@@ -8,4 +8,8 @@ import java.util.List;
 @Repository
 public interface UserDao {
     List<UserModel> findAll();
+
+    UserModel findUserById(int id);
+
+    int insertUser(UserModel userModel);
 }

@@ -1,0 +1,15 @@
+新建mapper文件：https://blog.csdn.net/zhangxl123liang/article/details/80968400
+https://blog.csdn.net/qq_41135254/article/details/96102670
+
+
+报错 文档根元素 "beans" 必须匹配 DOCTYPE 根 "null"  https://blog.csdn.net/woshi1226a/article/details/88779725
+mybatis在扫描Mapper.xml文件时，扫描到非mapper文件。比如本次报错扫描到了
+spring.xml文件。   解决办法将所有的Mapper.xml文件放入一个目录中，规定这个目录只存放Mapper.xml文件， <property name="mapperLocations" value="classpath:mapper/*.xml"/>
+
+Result Maps collection does not contain value for com.  mapper 文件中resultType 写成了resultMap
+
+jdbc配置文件：jdbc.url=jdbc:mysql://127.0.0.1:3306/ywsql?serverTimezone=GMT   其中ywsql是数据库名
+
+
+bean初始化失败  注意加入注解  @service @Repository  @Controller等
+

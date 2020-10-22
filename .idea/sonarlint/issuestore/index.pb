@@ -21,3 +21,5 @@ c
 3src/main/java/com/yilaguan/service/UserService.java,5\2\5279dd4e498f20b3ed412c1d54892e623d02501c
 i
 9src/main/java/com/yilaguan/controller/UserController.java,0\4\04291c5f13f1d2d31fb43ffe5f552725395d788f
+[
++src/main/test/com/yilaguan/UserDaoTest.java,1\a\1a57fe2444ef2c44aad1fb0a685f9af7f9d656e1

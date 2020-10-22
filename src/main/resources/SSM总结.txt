@@ -13,3 +13,7 @@ jdbc配置文件：jdbc.url=jdbc:mysql://127.0.0.1:3306/ywsql?serverTimezone=GMT
 
 bean初始化失败  注意加入注解  @service @Repository  @Controller等
 
+
+controller 传入string 在代码中转成json  再由json转成实体类时：  postman中传入request={"name":"小易","password":"12345"}
+注意{}前面没有双引号
+

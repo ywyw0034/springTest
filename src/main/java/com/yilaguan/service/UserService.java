@@ -7,4 +7,8 @@ import java.util.List;
 
 public interface UserService {
     List<UserModel> findAll();
+
+    UserModel findUserById(int id);
+
+    int insertUser(UserModel userModel);
 }
