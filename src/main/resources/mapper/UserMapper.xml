@@ -24,4 +24,24 @@
         insert into ay_user (name,password) value (#{name},#{password})
     </insert>
 
+
+    <insert id="insertUserNew" useGeneratedKeys="true"
+            keyProperty="id" parameterType="com.yilaguan.model.UserModel">
+        <selectKey
+            keyProperty="id" resultType="int" order="BEFORE">
+            SELECT MAX(id)+1 as id from ay_user
+        </selectKey>
+        insert into ay_user (id,name,password) value (#{id},#{name},#{password})
+    </insert>
+
+    <delete id="deleteUserById" parameterType="int">
+        delete from ay_user
+        where id=#{id}
+    </delete>
+
+    <delete id="deleteUserByName" parameterType="String">
+        delete from ay_user
+        where name=#{name}
+    </delete>
+
 </mapper>

@@ -11,4 +11,10 @@ public interface UserService {
     UserModel findUserById(int id);
 
     int insertUser(UserModel userModel);
+
+    int insertUserNew(UserModel userModel);
+
+    int deleteUserById(int id);
+
+    int deleteUserByName(String name);
 }

@@ -2,6 +2,7 @@ package com.yilaguan;
 
 import com.yilaguan.dao.UserDao;
 import com.yilaguan.model.UserModel;
+import org.apache.ibatis.session.RowBounds;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.test.context.ContextConfiguration;
@@ -19,7 +20,7 @@ public class UserDaoTest {
 
     @Test
     public void testFindAll(){
-        List<UserModel> userModelList=userDao.findAll();
+        List<UserModel> userModelList=userDao.findAll(new RowBounds(1,2));
         System.out.println(userModelList.size());
     }
 }

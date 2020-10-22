@@ -3,6 +3,7 @@ package com.yilaguan.service.impl;
 import com.yilaguan.dao.UserDao;
 import com.yilaguan.model.UserModel;
 import com.yilaguan.service.UserService;
+import org.apache.ibatis.session.RowBounds;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
@@ -15,7 +16,7 @@ public class UserImpl implements UserService {
     private UserDao userDao;
     @Override
     public List<UserModel> findAll() {
-        return userDao.findAll();
+        return userDao.findAll(new RowBounds(0,3));
     }
 
     @Override
@@ -26,5 +27,20 @@ public class UserImpl implements UserService {
     @Override
     public int insertUser(UserModel userModel) {
         return userDao.insertUser(userModel);
+    }
+
+    @Override
+    public int insertUserNew(UserModel userModel) {
+        return userDao.insertUserNew(userModel);
+    }
+
+    @Override
+    public int deleteUserById(int id) {
+        return userDao.deleteUserById(id);
+    }
+
+    @Override
+    public int deleteUserByName(String name) {
+        return userDao.deleteUserByName(name);
     }
 }
