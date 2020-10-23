@@ -6,7 +6,9 @@ import com.yilaguan.service.UserService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
@@ -21,14 +23,28 @@ public class UserController {
     @Resource
     private UserService userService;
 
+    @ModelAttribute
+    public void init(Model model) {
+        UserModel userModel=new UserModel();
+        userModel.setName("hhh");
+        model.addAttribute(userModel);
+    }
+
+    @ModelAttribute
+    public void initTwo(){
+        LOGGER.info("two");
+    }
+
+
     @GetMapping("/findAll")
-    public String findAll() {
+    @ResponseBody
+    public List findAll() {
         List<UserModel> userModels = userService.findAll();
 
         for (UserModel item : userModels) {
             LOGGER.info(item.getId() + ": " + item.getName() + ": " + item.getPassword());
         }
-        return "hello";
+        return userModels;
     }
 
     @PostMapping("/findUserById")
